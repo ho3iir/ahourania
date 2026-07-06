@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Vazir', 'Tahoma', Arial, sans-serif;
-    background: #f4f0e8;
-    color: #1a1a2e;
+    background: #1a1a1a;
+    color: #e0d5c0;
     line-height: 1.8;
 }
 
@@ -19,10 +19,10 @@ body {
 
 /* HEADER */
 header {
-    background: linear-gradient(135deg, #0a1a3a, #1a3a6a);
-    color: #fff;
+    background: #0d0d0d;
+    color: #d4af37;
     padding: 15px 0;
-    border-bottom: 4px solid #d4a843;
+    border-bottom: 3px solid #d4af37;
 }
 
 header .container {
@@ -37,7 +37,7 @@ header .container {
     align-items: center;
     gap: 15px;
     text-decoration: none;
-    color: #fff;
+    color: #d4af37;
 }
 
 .logo-text {
@@ -52,7 +52,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #d4af37;
     text-decoration: none;
     font-size: 1.1rem;
     padding: 8px 12px;
@@ -61,41 +61,46 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: rgba(212, 168, 67, 0.3);
+    background: #d4af37;
+    color: #0d0d0d;
 }
 
 /* HERO */
 .hero {
-    background: linear-gradient(135deg, #1a3a6a, #d4a843);
-    color: #fff;
+    background: linear-gradient(135deg, #0d0d0d, #2a2a2a);
+    color: #d4af37;
     text-align: center;
     padding: 100px 20px;
+    border-bottom: 3px solid #d4af37;
 }
 
 .hero h1 {
     font-size: 3.5rem;
     margin-bottom: 15px;
+    color: #d4af37;
 }
 
 .hero .subtitle {
     font-size: 1.8rem;
     opacity: 0.9;
+    color: #e0d5c0;
 }
 
 .hero .motto {
     font-size: 1.5rem;
     font-weight: bold;
     margin: 20px 0;
-    background: rgba(0,0,0,0.3);
+    background: rgba(212, 175, 55, 0.15);
     display: inline-block;
     padding: 10px 30px;
     border-radius: 30px;
+    border: 1px solid #d4af37;
 }
 
 .btn {
     display: inline-block;
-    background: #fff;
-    color: #1a3a6a;
+    background: #d4af37;
+    color: #0d0d0d;
     padding: 15px 40px;
     border-radius: 30px;
     text-decoration: none;
@@ -106,15 +111,15 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-    background: #d4a843;
-    color: #fff;
+    background: #e0d5c0;
+    color: #0d0d0d;
     transform: scale(1.05);
 }
 
 /* FEATURES */
 .features {
     padding: 60px 0;
-    background: #fff;
+    background: #1a1a1a;
 }
 
 .feature-grid {
@@ -124,34 +129,36 @@ nav ul li a:hover {
 }
 
 .feature-item {
-    background: #f8f5f0;
+    background: #262626;
     padding: 30px;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
     transition: transform 0.3s;
-    border-top: 5px solid #d4a843;
+    border-top: 5px solid #d4af37;
+    color: #e0d5c0;
 }
 
 .feature-item:hover {
     transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(212, 175, 55, 0.2);
 }
 
 .feature-item h3 {
     font-size: 1.8rem;
-    color: #1a3a6a;
+    color: #d4af37;
 }
 
 /* NEWS TEASER */
 .news-teaser {
     padding: 60px 0;
-    background: #f4f0e8;
+    background: #0d0d0d;
 }
 
 .news-teaser h2 {
     text-align: center;
     font-size: 2.5rem;
-    color: #1a3a6a;
+    color: #d4af37;
     margin-bottom: 40px;
 }
 
@@ -162,91 +169,120 @@ nav ul li a:hover {
 }
 
 .news-card {
-    background: #fff;
+    background: #1a1a1a;
     padding: 25px;
     border-radius: 15px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-    border-right: 5px solid #d4a843;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+    border-right: 5px solid #d4af37;
+    color: #e0d5c0;
+}
+
+.news-card h4 {
+    color: #d4af37;
 }
 
 /* PAGE CONTENT */
 .page-content {
     padding: 60px 0;
-    background: #fff;
+    background: #1a1a1a;
 }
 
 .page-content h1 {
     font-size: 2.8rem;
-    color: #1a3a6a;
-    border-bottom: 4px solid #d4a843;
+    color: #d4af37;
+    border-bottom: 4px solid #d4af37;
     padding-bottom: 15px;
     margin-bottom: 30px;
 }
 
 .page-content h2 {
-    color: #1a3a6a;
+    color: #d4af37;
     margin: 30px 0 15px;
 }
 
 .official-card {
-    background: linear-gradient(135deg, #f8f5f0, #e8e0d0);
+    background: #262626;
     padding: 25px;
     border-radius: 15px;
-    border: 2px solid #d4a843;
+    border: 2px solid #d4af37;
     margin: 20px 0;
+    color: #e0d5c0;
+}
+
+.official-card h3 {
+    color: #d4af37;
 }
 
 .news-item {
-    background: #f8f5f0;
+    background: #262626;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
-    border-right: 5px solid #d4a843;
+    border-right: 5px solid #d4af37;
+}
+
+.news-item h2 {
+    color: #d4af37;
 }
 
 .news-date {
-    color: #666;
+    color: #999;
     font-size: 0.9rem;
 }
 
 /* CONTACT */
 .contact-info, .contact-form {
-    background: #f8f5f0;
+    background: #262626;
     padding: 30px;
     border-radius: 15px;
     margin-bottom: 30px;
+    color: #e0d5c0;
+}
+
+.contact-info h2, .contact-form h2 {
+    color: #d4af37;
 }
 
 .contact-form input, 
 .contact-form textarea {
     width: 100%;
     padding: 12px;
-    border: 2px solid #ddd;
+    border: 2px solid #444;
     border-radius: 8px;
     font-size: 1rem;
     margin: 5px 0 20px;
+    background: #0d0d0d;
+    color: #e0d5c0;
+}
+
+.contact-form input:focus, 
+.contact-form textarea:focus {
+    border-color: #d4af37;
+    outline: none;
 }
 
 .contact-form button {
-    background: #1a3a6a;
-    color: #fff;
+    background: #d4af37;
+    color: #0d0d0d;
     padding: 12px 40px;
     border: none;
     border-radius: 30px;
     font-size: 1.1rem;
     cursor: pointer;
+    font-weight: bold;
     transition: background 0.3s;
 }
 
 .contact-form button:hover {
-    background: #d4a843;
+    background: #e0d5c0;
 }
 
 /* FOOTER */
 footer {
-    background: #0a1a3a;
-    color: #ccc;
+    background: #0d0d0d;
+    color: #999;
     padding: 40px 0 20px;
+    border-top: 3px solid #d4af37;
 }
 
 .footer-content {
@@ -256,10 +292,10 @@ footer {
 }
 
 .footer-section h4 {
-    color: #fff;
+    color: #d4af37;
     font-size: 1.2rem;
     margin-bottom: 15px;
-    border-bottom: 2px solid #d4a843;
+    border-bottom: 2px solid #d4af37;
     padding-bottom: 10px;
 }
 
@@ -268,12 +304,12 @@ footer {
 }
 
 .footer-section ul li a {
-    color: #aaa;
+    color: #999;
     text-decoration: none;
 }
 
 .footer-section ul li a:hover {
-    color: #d4a843;
+    color: #d4af37;
 }
 
 .footer-bottom {
